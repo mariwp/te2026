@@ -1,0 +1,28 @@
+body { 
+    background-color:bisque;
+    font-family: Arial; 
+    margin: 20px;
+    padding: 20px;
+    }
+
+.encabezado{
+    text-align: center;
+}
+
+.foto{
+    width: 250px;
+    border-radius: 75%;
+}
+
+table{
+    background-color: antiquewhite;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+.pie{
+    background-color: antiquewhite;
+}
