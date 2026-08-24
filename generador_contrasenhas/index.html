@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <title>Generador de Contrasenas</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+    <h1>Generador de Password</h1>
+
+    <!--salida-->
+    <div class="resultado">
+        <input type="text" id="password" readonly>
+        <button id="copyButton">&#128203</button>
+        <!--ese codigo random es el emoji para copiar-->
+    </div>
+
+    <!--tamanho-->
+    <div class="opcion">
+        <label for="length">Tamano de la contrasena</label>
+        <input type="range" id="length" min="4" max="20" value="10">
+        <output id="lengthValue">10</output>
+    </div>
+
+    <!--mayuscula-->
+    <div class="opcion">
+        <!--<p>Se incluyen letras mayusculas</p>-->
+        <label for="uppercase">Se incluyen letras mayusculas</label>
+        <input type="checkbox" id="uppercase">
+    </div>
+
+    <!--minuscula-->
+    <div class="opcion">
+        <!--<p>Se incluyen letras minusculas</p>-->
+        <label for="lowercase">Se incluyen letras minusculas</label>
+        <input type="checkbox" id="lowercase">
+    </div>
+
+
+    <!--numeros-->
+    <div class="opcion">
+        <!--<p>Se incluyen numeros</p>-->
+        <label for="numbers">Se incluyen numeros</label>
+        <input type="checkbox" id="numbers">
+    </div>
+
+    <!--simbolos-->
+    <div class="opcion">
+        <!--<p>Se incluyen simbolos</p>-->
+        <label for="symbols">Se incluyen simbolos</label>
+        <input type="checkbox" id="symbols">
+    </div>
+
+    <button id="generateButton">Generar Password</button>
+
+    <script src="script.js"></script>
+
+</div>
+
+</body>
+
+
+
+</html>
